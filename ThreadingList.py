@@ -116,7 +116,7 @@ class ThreadList:
             tw=ThreadListWindow(self,name,timeout=timeout)
             self.addThread('ThreadListWindow',tw.start)
         else:
-            print('ThreadListWindow has already done.')
+            print('\tThreadListWindow has already done.')
 
     def cleanThreads(self):
         arr=list()
